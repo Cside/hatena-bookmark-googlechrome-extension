@@ -87,11 +87,12 @@ HTTPCache.counter = new HTTPCache('counterCache', {
 
 HTTPCache.counter.isValid = function(url) {
     // XXX
-    if (url.indexOf('https') == 0) {
-        return false;
-    } else {
-        return true;
-    }
+    return true;
+    // if (url.indexOf('https') == 0) {
+    //     return false;
+    // } else {
+    //     return true;
+    // }
 };
 
 /*
